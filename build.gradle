@@ -14,6 +14,12 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.reactivestreams:reactive-streams:1.0.3'
+    implementation 'org.projectlombok:lombok:1.18.12'
+    implementation 'io.projectreactor:reactor-core:3.3.3.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    annotationProcessor("org.projectlombok:lombok:1.18.12")
 }
 
 test {
